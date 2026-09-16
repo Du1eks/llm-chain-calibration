@@ -1,6 +1,9 @@
+anthropic
+pydantic
 python-dotenv
 requests
 numpy
 pandas
 matplotlib
+pytest
 jupyter
