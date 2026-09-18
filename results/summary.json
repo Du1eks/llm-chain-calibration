@@ -1,0 +1,22 @@
+{
+  "n": 100,
+  "model": "claude-haiku-4-5",
+  "min_steps": 5,
+  "seed": 42,
+  "single_shot": {
+    "accuracy": 0.97,
+    "ece": 0.05980000000000002,
+    "brier": 0.015506000000000004
+  },
+  "chain": {
+    "accuracy": 0.78,
+    "ece": 0.19729999999999995,
+    "brier": 0.20788500000000001
+  },
+  "bootstrap_ece_diff": {
+    "observed_diff": -0.13749999999999993,
+    "ci_low": -0.22620749999999998,
+    "ci_high": -0.06409749999999963,
+    "significant": true
+  }
+}

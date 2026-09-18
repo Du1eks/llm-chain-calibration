@@ -12,6 +12,10 @@ PRICE_PER_MTOK_OUTPUT = 5.00
 
 # --- Sampling ---
 SAMPLE_SIZE = 100
+MIN_STEPS = 5  # GSM8K at min_steps=0 was too easy for Haiku 4.5 (100% on
+# a 20-problem probe) — filtered to harder problems so
+# there are enough errors to measure calibration. See
+# docs/napredak_projekta.md.
 RANDOM_SEED = 42
 
 # --- Budget guard ---
